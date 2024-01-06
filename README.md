@@ -66,7 +66,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 // Navigation Interaction:
 // Objective: Navigate through different sections.
-// Essential Characteristics:sss
+// Essential Characteristics:
 // Clickable navigation links.
 // Scroll to corresponding sections.
 // Clear separation of sections (developer information, web application, contact).
@@ -130,10 +130,6 @@ s
     b. Use browser developer tools to inspect and debug CSS styles.
 
 13. User Acceptance Testing (UAT):
-    a. Involve stakeholders or end-users to test the responsiveness.
-    b. Gather feedback on the user experience.
-
-14. Regression Testing:
-    a. After making adjustments, perform regression testing to ensure existing features remain functional.
+    a. Gather feedback on the user experience.
 
 15. Finalize the web page for deployment.
