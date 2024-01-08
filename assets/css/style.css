@@ -10,20 +10,18 @@
     height: 80px;
     padding: 20px;
     border-bottom: 1px solid #ddd;
-    margin-bottom: 20px; 
+    margin-bottom: var(--margin-bottom); 
 } 
 header h1{
     padding:0;
 }
 
-.footer{
-    color: #95a5a6;
 
-}
 
-.nav{
+.nav{/*make text here bigger*/
     display: flex; /*creates flexbox*/
     justify-content: left;
+    margin-bottom: var(--margin-bottom); 
 }
 
 nav ol{
@@ -36,5 +34,52 @@ nav ol{
 
 nav li{
     margin: 0 10px;
+}
+
+.Photo-of-me{
+    Margin: 0;
+    padding-left: 250px;
+    padding-right: 200px;
+    margin-bottom: var(--margin-bottom); 
+}
+
+.Photo-of-me img{
+    width: 100%;
+    height: auto;
+}
+
+.aboutme{
+    margin-bottom: var(--margin-bottom);
+}
+
+
+.main{
+    margin-bottom: var(--margin-bottom); 
+}
+main figure{
+    padding-left:100px;
+    padding-right: 100px;
+}
+
+main figure img{
+    width: 100%;
+    height: auto;
+}
+
+
+:root{
+    --margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+.footer{
+    color: #95a5a6; 
+    border-top: #2c3e50;
+
 }
 
