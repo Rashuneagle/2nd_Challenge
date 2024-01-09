@@ -130,3 +130,11 @@ s
     b. Use browser developer tools to inspect and debug CSS styles.
 
 14. Finalize the web page for deployment.
+
+Link to my deployed website: https://rashuneagle.github.io/2nd_Challenge/
+
+Picture of my website:
+
+<img width="2173" alt="image" src="https://github.com/Rashuneagle/2nd_Challenge/assets/152398969/6c109e1c-0514-4995-8250-28e5dd157630">
+
+
