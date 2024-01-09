@@ -1,6 +1,6 @@
-.Body{
+* { /* "*" affects everything on the page*/
     background-color: #ecf0f1;
-    color: #2c3e50;
+    color: black;
     line-height: 1.2 ;
 }
 
@@ -11,10 +11,10 @@
     padding: 20px;
     border-bottom: 1px solid #ddd;
     margin-bottom: var(--margin-bottom);
+    background-color: royalblue;
 } 
 header h1{
-    padding:0;
-    color: #3498db;
+    padding:0;   
 }
 
 
@@ -41,16 +41,27 @@ nav li{
     Margin: 0;
     padding-left: 250px;
     padding-right: 200px;
-    margin-bottom: var(--margin-bottom); 
+    margin-bottom: var(--margin-bottom);
+    background-color: white;
+     
 }
 
 .Photo-of-me img{
-    width: 100%;
+    max-width: 100%;
     height: auto;
+}
+
+@media (max-width: 768px) {/*use media query to make page more responsive*/
+    .Photo-of-me {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 .aboutme{
     margin-bottom: var(--margin-bottom);
+    background-color: white;
+    
 }
 
 
@@ -60,23 +71,22 @@ nav li{
 main figure{
     padding-left:100px;
     padding-right: 100px;
+    border: 1px solid royalblue;
 }
 
 main figure img{
     width: 100%;
     height: auto;
 }
-
-
-:root{
+@media (max-width: 900px) {
+    .main figure img {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+}
+:root{/*use variable to allow easy changes to be made to code*/
     --margin-bottom: 50px;
 }
-
-
-
-
-
-
 
 .footer{
     color: #95a5a6; 

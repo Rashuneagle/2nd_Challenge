@@ -129,7 +129,4 @@ s
     a. Identify and resolve any responsiveness issues.
     b. Use browser developer tools to inspect and debug CSS styles.
 
-13. User Acceptance Testing (UAT):
-    a. Gather feedback on the user experience.
-
-15. Finalize the web page for deployment.
+14. Finalize the web page for deployment.
