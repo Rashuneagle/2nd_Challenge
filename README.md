@@ -138,3 +138,24 @@ Picture of my website:
 <img width="2173" alt="image" src="https://github.com/Rashuneagle/2nd_Challenge/assets/152398969/6c109e1c-0514-4995-8250-28e5dd157630">
 
 
+# Update 1.1
+
+## User Story: 
+I want my images to load on my webstie when my website is deployed online. When I view my website it is more visually stunning and interactive.
+
+## Sucess Criteria:
+GIVEN I want to improve my professional portfolio website
+WHEN I view the website
+THEN I see the images work as intended
+WHEN I view the website
+THEN I see that it scrolls smoother (:scroll behavior)
+WHEN I hover of a link or image
+THEN I see a hover effect (:hover)
+WHEN I view the website
+THEN I see small visually appealing animations (@keyframes)
+WHEN I hover over a link
+THEN I see it changes so I know it is clickable (cusor styles)
+
+
+
+
